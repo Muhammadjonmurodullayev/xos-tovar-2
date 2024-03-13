@@ -1,0 +1,77 @@
+*{
+padding: 0;
+margin: 0;
+}
+.parent{
+    width: 100%;
+    height: 710px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.user{
+    width: 50%;
+    height: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.img{
+    width: 50%;
+    height:600px;
+}
+.login{
+    width: 353px;
+    height: 403px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+}
+.h1_tag{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text_p{
+    color: #4FD1C5;
+}
+.p_div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.buttton{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.input_id{
+    width:350px;
+    height:35px;
+padding-left: 10px;
+box-sizing: border-box;
+}
+.button_check{
+    width:350px;
+    height:45px;
+background-color: #4FD1C5;
+border: none;
+border-radius: 5px;
+color: white;
+font-size:20px;
+padding: 10px;
+margin-top:10px;
+}
+.pp{
+color: #A0AEC0;
+}
+.checkbox{
+width:20px;
+height:20px;
+}
+.p_textt{
+    margin-top:10px;
+}
